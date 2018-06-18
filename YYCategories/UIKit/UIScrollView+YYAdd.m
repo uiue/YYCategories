@@ -18,19 +18,19 @@ YYSYNTH_DUMMY_CLASS(UIScrollView_YYAdd)
 @implementation UIScrollView (YYAdd)
 
 - (void)YYscrollToTop {
-    [self scrollToTopAnimated:YES];
+    [self YYscrollToTopAnimated:YES];
 }
 
 - (void)YYscrollToBottom {
-    [self scrollToBottomAnimated:YES];
+    [self YYscrollToBottomAnimated:YES];
 }
 
 - (void)YYscrollToLeft {
-    [self scrollToLeftAnimated:YES];
+    [self YYscrollToLeftAnimated:YES];
 }
 
 - (void)YYscrollToRight {
-    [self scrollToRightAnimated:YES];
+    [self YYscrollToRightAnimated:YES];
 }
 
 - (void)YYscrollToTopAnimated:(BOOL)animated {
